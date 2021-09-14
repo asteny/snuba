@@ -124,7 +124,7 @@ raw_storage = WritableTableStorage(
     stream_loader=build_kafka_stream_loader_from_settings(
         processor=SessionsProcessor(),
         default_topic=Topic.SESSIONS,
-        commit_log_topic=Topic.COMMIT_LOG,
+        commit_log_topic=Topic.SESSIONS_COMMIT_LOG,
         subscription_result_topic=Topic.SUBSCRIPTION_RESULTS_SESSIONS,
     ),
 )

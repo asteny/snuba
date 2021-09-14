@@ -12,6 +12,7 @@ class Topic(Enum):
     METRICS = "ingest-metrics"
     OUTCOMES = "outcomes"
     SESSIONS = "ingest-sessions"
+    SESSIONS_COMMIT_LOG = "snuba-sessions-commit-log"
     SUBSCRIPTION_RESULTS_EVENTS = "events-subscription-results"
     SUBSCRIPTION_RESULTS_TRANSACTIONS = "transactions-subscription-results"
     SUBSCRIPTION_RESULTS_SESSIONS = "sessions-subscription-results"

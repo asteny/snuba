@@ -131,7 +131,7 @@ def devserver(*, bootstrap: bool, workers: bool) -> None:
                 "--max-batch-size=1",
                 "--consumer-group=snuba-sessions-subscriptions-consumers",
                 "--dataset=sessions",
-                "--commit-log-topic=snuba-commit-log",
+                "--commit-log-topic=snuba-sessions-commit-log",
                 "--commit-log-group=sessions_group",
                 "--delay-seconds=1",
                 "--schedule-ttl=10",
